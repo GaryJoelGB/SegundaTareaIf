@@ -1,12 +1,6 @@
 #Más de 30°C: “Hace mucho calor”
 # Conversión de horas a turnos
 # Pide la hora (0-23) y determina si es "Mañana" (6-11), "Tarde" (12-17), "Noche" (18-23) o "Madrugada" (0-5).
-
-temperatura = float(input("Ingrese la temperatura en grados Celsius: "))
-
-if temperatura > 30:
-    print("Hace mucho calor")
-    
 hora = int(input("Ingrese la hora (0-23): "))
 
 if 6 <= hora <= 11:
